@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="4">
+
+	<!-- <test name="Browser_Chrome1" preserve-order="true">
+		<parameter name="browser" value="CHROME"></parameter>
+		<classes>
+			<class name="GlobalNavUrl.GlobalnavUrlValidation" />
+		</classes>
+	</test>	
+
+	
+	<test name="Browser_FIREFOX" preserve-order="true">
+		<parameter name="browser" value="FIREFOX"></parameter>
+		<classes>
+			<class name="GlobalNavUrl.GlobalnavUrlValidation" />
+		</classes>
+	</test>
+
+	<test name="Browser_IE" preserve-order="true">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="GlobalNavUrl.GlobalnavUrlValidation" />
+		</classes>
+	</test>	 -->
+	
+		<test name="Browser_Edge" preserve-order="true">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="GlobalNavUrl.GlobalnavUrlValidation" />
+		</classes>
+	</test>	
+	
+ </suite> <!-- Suite -->

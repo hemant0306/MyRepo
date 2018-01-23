@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25" started-at="2017-09-22T12:08:52Z" finished-at="2017-09-22T12:08:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25" started-at="2017-09-22T12:08:52Z" finished-at="2017-09-22T12:08:52Z">
+      <class name="GlobalNavURL.TestClass">
+        <test-method status="PASS" signature="myMethod()[pri:0, instance:GlobalNavURL.TestClass@cb5822]" name="myMethod" duration-ms="8" started-at="2017-09-22T17:38:52Z" finished-at="2017-09-22T17:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myMethod -->
+      </class> <!-- GlobalNavURL.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
