@@ -2,16 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25" started-at="2017-09-22T12:08:52Z" finished-at="2017-09-22T12:08:52Z">
+  <suite name="Suite" duration-ms="16682" started-at="2018-01-23T13:52:59Z" finished-at="2018-01-23T13:53:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25" started-at="2017-09-22T12:08:52Z" finished-at="2017-09-22T12:08:52Z">
-      <class name="GlobalNavURL.TestClass">
-        <test-method status="PASS" signature="myMethod()[pri:0, instance:GlobalNavURL.TestClass@cb5822]" name="myMethod" duration-ms="8" started-at="2017-09-22T17:38:52Z" finished-at="2017-09-22T17:38:52Z">
+    <test name="Test" duration-ms="16682" started-at="2018-01-23T13:52:59Z" finished-at="2018-01-23T13:53:15Z">
+      <class name="com.seleniumhq.TestCases.SeleniumTestCases">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="beforeClass" is-config="true" duration-ms="7" started-at="2018-01-23T19:22:59Z" finished-at="2018-01-23T19:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myMethod -->
-      </class> <!-- GlobalNavURL.TestClass -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="beforeMethod" is-config="true" duration-ms="2395" started-at="2018-01-23T19:22:59Z" finished-at="2018-01-23T19:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CheckSeleniumPageContent()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="CheckSeleniumPageContent" duration-ms="13383" started-at="2018-01-23T19:23:01Z" finished-at="2018-01-23T19:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSeleniumPageContent -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="afterMethod" is-config="true" duration-ms="879" started-at="2018-01-23T19:23:14Z" finished-at="2018-01-23T19:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-23T19:23:15Z" finished-at="2018-01-23T19:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.seleniumhq.TestCases.SeleniumTestCases -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

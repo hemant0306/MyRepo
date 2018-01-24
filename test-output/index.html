@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GlobalNavURL.TestClass" hash-for-method="myMethod">myMethod</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.seleniumhq.TestCases.SeleniumTestCases" hash-for-method="CheckSeleniumPageContent">CheckSeleniumPageContent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">GlobalNavURL.TestClass</span>
+              <span class="class-name">com.seleniumhq.TestCases.SeleniumTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="myMethod">
-                  </a> <!-- myMethod -->
-                  <span class="method-name">myMethod</span>
+                  <a name="CheckSeleniumPageContent">
+                  </a> <!-- CheckSeleniumPageContent -->
+                  <span class="method-name">CheckSeleniumPageContent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -143,8 +143,9 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;GlobalNavURL.TestClass&quot;/&gt;
+      &lt;class name=&quot;com.seleniumhq.TestCases.SeleniumTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -186,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'myMethod')
-data.setCell(0, 2, 'GlobalNavURL.TestClass')
-data.setCell(0, 3, 8);
+data.setCell(0, 1, 'CheckSeleniumPageContent')
+data.setCell(0, 2, 'com.seleniumhq.TestCases.SeleniumTestCases')
+data.setCell(0, 3, 13383);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -219,11 +220,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">GlobalNavURL.TestClass</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">myMethod</span>
+              <div class="chronological-class-name">com.seleniumhq.TestCases.SeleniumTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckSeleniumPageContent</span>
+                <span class="method-start">2411 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">15795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">16674 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

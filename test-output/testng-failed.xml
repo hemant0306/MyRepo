@@ -2,12 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="GlobalNavUrl.TestClass">
+      <class name="com.seleniumhq.TestCases.SeleniumTestCases">
         <methods>
-          <include name="main"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="CheckSeleniumPageContent"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- GlobalNavUrl.TestClass -->
+      </class> <!-- com.seleniumhq.TestCases.SeleniumTestCases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

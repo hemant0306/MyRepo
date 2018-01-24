@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-  <classes>
-			<class name="GlobalNavURL.TestClass" />
+	<test name="Test">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.seleniumhq.TestCases.SeleniumTestCases" />
+
 		</classes>
-  </test> <!-- Test -->
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

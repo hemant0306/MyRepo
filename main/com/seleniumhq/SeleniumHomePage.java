@@ -8,7 +8,7 @@ import com.common.CommonFunctions;
 
 public class SeleniumHomePage {
 	private WebDriver driver;
-	private CommonFunctions CommonFunction;
+	private CommonFunctions CommonFunction = new CommonFunctions();
 	public SeleniumHomePage(WebDriver GDriver)
 	{
 		driver = GDriver;
@@ -16,12 +16,12 @@ public class SeleniumHomePage {
 
 	//Objects
 
-	private String txtSelenium 	 		= "//*[contains(text(),'Browser Automation')]";
+	private String txtSelenium 	 		= "//a[contains(text(),'Browser Automation')]";
 	private String btnProject 	  		= "//*[@title='Selenium Projects']";
 	private String btnDownload 			= "//*[@title='Get Selenium']";
 
 
-	public boolean DownloadPageDisplayed(){
+	public boolean SeleniumPageDisplayed(){
 
 		WebElement txtSeleniumhq= driver.findElement(By.xpath(txtSelenium));
 		if(CommonFunction.fcommonObjectFound(txtSeleniumhq))
