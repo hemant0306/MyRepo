@@ -37,6 +37,7 @@ public class SeleniumTestCases {
 		driver.get("http://www.seleniumhq.org/");
 
 		com.seleniumhq.SeleniumHomePage seleniumPage = new SeleniumHomePage(driver);
+		System.out.println("Done");
 		Assert.assertTrue(seleniumPage.SeleniumPageDisplayed());
 
 

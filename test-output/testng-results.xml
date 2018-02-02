@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9996" started-at="2018-01-31T06:36:48Z" finished-at="2018-01-31T06:36:58Z">
+  <suite name="Suite" duration-ms="4575" started-at="2018-02-02T13:43:32Z" finished-at="2018-02-02T13:43:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9996" started-at="2018-01-31T06:36:48Z" finished-at="2018-01-31T06:36:58Z">
+    <test name="Test" duration-ms="4575" started-at="2018-02-02T13:43:32Z" finished-at="2018-02-02T13:43:37Z">
       <class name="com.seleniumhq.TestCases.SeleniumTestCases">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@69db50]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-01-31T12:06:48Z" finished-at="2018-01-31T12:06:48Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-02-02T19:13:32Z" finished-at="2018-02-02T19:13:32Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@69db50]" name="beforeMethod" is-config="true" duration-ms="4634" started-at="2018-01-31T12:06:48Z" finished-at="2018-01-31T12:06:53Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="beforeMethod" is-config="true" duration-ms="2367" started-at="2018-02-02T19:13:32Z" finished-at="2018-02-02T19:13:35Z">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CheckSeleniumPageContent()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@69db50]" name="CheckSeleniumPageContent" duration-ms="4441" started-at="2018-01-31T12:06:53Z" finished-at="2018-01-31T12:06:57Z">
+        <test-method status="PASS" signature="CheckSeleniumPageContent()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="CheckSeleniumPageContent" duration-ms="1329" started-at="2018-02-02T19:13:35Z" finished-at="2018-02-02T19:13:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSeleniumPageContent -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@69db50]" name="afterMethod" is-config="true" duration-ms="894" started-at="2018-01-31T12:06:57Z" finished-at="2018-01-31T12:06:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="afterMethod" is-config="true" duration-ms="854" started-at="2018-02-02T19:13:36Z" finished-at="2018-02-02T19:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@69db50]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-31T12:06:58Z" finished-at="2018-01-31T12:06:58Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.seleniumhq.TestCases.SeleniumTestCases@1597028]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-02T19:13:37Z" finished-at="2018-02-02T19:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
