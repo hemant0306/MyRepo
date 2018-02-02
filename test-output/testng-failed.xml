@@ -4,15 +4,11 @@
   <test name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.seleniumhq.TestCases.SeleniumTestCases">
+      <class name="com.common.abc">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="CheckSeleniumPageContent"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- com.seleniumhq.TestCases.SeleniumTestCases -->
+      </class> <!-- com.common.abc -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
